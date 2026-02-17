@@ -56,7 +56,6 @@ class MainActivity : ComponentActivity() {
         }
     }
 }
-
 @Composable
 fun Greeting(modifier: Modifier = Modifier) {
     val context = LocalContext.current
