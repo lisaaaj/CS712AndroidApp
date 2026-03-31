@@ -99,6 +99,14 @@ fun Greeting(modifier: Modifier = Modifier) {
         }) {
             Text("Send Broadcast")
         }
+
+        // Open Third Activity
+        Button(onClick = {
+            val intent = Intent(context, ThirdActivity::class.java)
+            context.startActivity(intent)
+        }) {
+            Text("View Image Activity")
+        }
     }
 }
 
